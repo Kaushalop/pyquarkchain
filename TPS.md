@@ -4,15 +4,15 @@
 
 **Number of CPUs**
 
-[How many logical CPUs does the machine have for running one cluster?]
+96 vCPUs
 
 **Memory (GB)**
 
-[How much memory does the machine have for running one cluster? For example, 16G.]
+86.4GB
 
 **Storage (GB)**
 
-[Note down both the type and capacity of the storage on one machine. For example, SSD 1024G.]
+8GB
 
 **Network**
 
@@ -20,7 +20,7 @@
 
 **Machine Type (Optional)**
 
-[If you are using public cloud service, note down the name of the provider and the machine type. For example, AWS EC2 m5.2xlarge.]
+GC - Kubernetes Engine - n1-highcpu-96
 
 **Command Lines for Running Cluster**
 ```
@@ -42,5 +42,4 @@
 
 **Additional Comment**
 
-[If you have special setup, e.g., running a single cluster over multiple machines, the above questionnaire might not fit. Note down
-whatever you want us to know here to help evaluate the result.]
+
