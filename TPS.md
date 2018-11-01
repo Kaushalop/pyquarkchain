@@ -24,16 +24,18 @@ GC - Kubernetes Engine - n1-highcpu-96
 
 **Command Lines for Running Cluster**
 ```
-[Copy the command line here]
+pypy3 multi_cluster.py --num_clusters=3 --mine --devp2p_enable
+curl -X POST --data '{"jsonrpc":"2.0","method":"createTransactions","params":{"numTxPerShard":10000, "xShardPercent":10},"id":0}' http://localhost:38491
+
 ```
 
 **Peak TPS**
 
-[Note down the highest TPS observed.]
+3323.37
 
 **Video URL**
 
-[URL for the video showing how you produced the above TPS.]
+https://youtu.be/DCyDm16dovo
 
 **Output From `stats` Tool**
 ```
